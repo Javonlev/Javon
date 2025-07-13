@@ -1,1 +1,52 @@
-Authors: Javon BucknorDate Created: July 12, 2025Course: ITT103GitHub Public URL to Code: https://github.com/yourusername/hospital-management-systemProject Title: Hospital Management System (HMS)DescriptionThis is a terminal-based Hospital Management System implemented in Python.? Add patient and doctor information? Book, cancel, and reschedule appointments? Generate billing information? Receipt Generation with Unique ID and Timestamp? Conflict checking for Appointment time.? Doctor Availability check based on weekly schedule? Payment Method selection, which supports both Cash and Card (Swipe/Tap) payments. Program Feature? Object-Oriented Design using Python classes? Error checking and input validation? Unique IDs for Patients, Doctors, and Appointments? Doctor availability based on weekly schedule and working hours? Appointment conflict checks? Patient billing with additional service feesProgram Structure:? Person: Base class for shared attributes? Patient: Inherits from Person; can book an appointment? Doctor: Inherits from Person; has a schedule and availability checker? Appointment: Handles appointment data and status? Hospital System: Core management system for all features ? main_menu: Entry point with a user interface menu loopHow to Run the System? Open a terminal or command prompt.? Ensure Python is installed ? Run the script:? Then follow the instructions to interact with the system.Notes:-Time inputs must follow the format (e.g., 10:00 AM, 3:00 PM)? Appointments cannot be double-booked? Doctors must be available on the selected day and time.
+Authors: Javon Bucknor
+Date Created: July 12, 2025
+Course: ITT103
+GitHub Public URL to Code: https://github.com/Javonlev/Javon.git
+Project Title: Hospital Management System (HMS)
+
+
+Description
+This is a terminal-based Hospital Management System implemented in Python.
+
+? Add patient and doctor information
+? Book, cancel, and reschedule appointments
+? Generate billing information
+? Receipt Generation with Unique ID and Timestamp
+? Conflict checking for Appointment time.
+? Doctor Availability check based on weekly schedule
+? Payment Method selection, which supports both Cash and Card (Swipe/Tap) payments.
+
+
+ Program Feature
+
+? Object-Oriented Design using Python classes
+? Error checking and input validation
+? Unique IDs for Patients, Doctors, and Appointments
+? Doctor availability based on weekly schedule and working hours
+? Appointment conflict checks
+? Patient billing with additional service fees
+
+
+Program Structure:
+
+? Person: Base class for shared attributes
+? Patient: Inherits from Person; can book an appointment
+? Doctor: Inherits from Person; has a schedule and availability checker
+? Appointment: Handles appointment data and status
+? Hospital System: Core management system for all features 
+? main_menu: Entry point with a user interface menu loop
+
+
+How to Run the System
+
+? Open a terminal or command prompt.
+? Ensure Python is installed 
+? Run the script:
+? Then follow the instructions to interact with the system.
+
+
+Notes:
+-Time inputs must follow the format (e.g., 10:00 AM, 3:00 PM)
+? Appointments cannot be double-booked
+? Doctors must be available on the selected day and time.
+
